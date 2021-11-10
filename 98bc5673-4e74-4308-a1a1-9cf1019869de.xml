@@ -1,0 +1,25 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>98bc5673-4e74-4308-a1a1-9cf1019869de</id>
+    <loglevel>INFO</loglevel>
+    <name>HelloWorld</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <schedule>
+      <month month='*' />
+      <time hour='*' minute='*' seconds='0/5' />
+      <weekday day='*' />
+      <year year='*' />
+    </schedule>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>whoami</exec>
+      </command>
+    </sequence>
+    <uuid>98bc5673-4e74-4308-a1a1-9cf1019869de</uuid>
+  </job>
+</joblist>
