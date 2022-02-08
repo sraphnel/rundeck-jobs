@@ -5,7 +5,7 @@
     <executionEnabled>true</executionEnabled>
     <id>98bc5673-4e74-4308-a1a1-9cf1019869de</id>
     <loglevel>INFO</loglevel>
-    <name>HelloWorld2</name>
+    <name>Hola</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <schedule>
