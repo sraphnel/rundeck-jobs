@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>87341acd-b53b-43c2-b872-42d8de579e70</id>
+    <loglevel>INFO</loglevel>
+    <name>PruebaDeConcepto</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ifconfig</exec>
+      </command>
+    </sequence>
+    <uuid>87341acd-b53b-43c2-b872-42d8de579e70</uuid>
+  </job>
+</joblist>
